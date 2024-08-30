@@ -12,7 +12,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/style/main.css">
   <link rel="stylesheet" href="assets/style/style.css">
-  <title>junglejumbles</title>
+  <title>Jungle Jumbles</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
       <a class="navbar-brand" href="#">
         <img src="https://codeworks.blob.core.windows.net/public/assets/img/cw-mark.png" height="45" alt=""
           loading="lazy">
-        <span class="ml-2">junglejumbles</span>
+        <span class="ml-2">Jungle Jumbles</span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,51 +50,36 @@
 
     <div class="container">
       <section id="list-template" class="row justify-content-end">
-        <div class="col-4">
+        <!-- <div class="col-4">
           <h3 class="text-center mb-3">Jumbles</h3>
-          <!-- <div class="d-flex justify-content-between">
-            <button onclick="app.JumblesController.drawActive()">Start</button>
-            <label>Easy Jumble</label>
-          </div> -->
-          <!-- <div class="d-flex justify-content-between">
-            <button onclick="">Start</button>
-            <label>Medium Jumble</label>
+          <div class="d-flex justify-content-end">
+            <button onclick="app.JumblesController.setActiveJumble('${this.id}')">Start</button>
+            <label>${this.name}</label>
           </div>
-          <div class="d-flex justify-content-between">
-            <button onclick="">Start</button>
-            <label>Crazy Jumble</label>
-          </div> -->
-        </div>
+        </div> -->
       </section>
     </div>
 
-    <div class="container">
-      <section class="row">
-        <div class="col-4 bg-light shadow">
-          <form onsubmit="app.JumblesController.createJumble()">
+    <section id="Active-jumble" class="row container mt-3 justify-content-around">
+      <!-- <div class="col-8 bg-light shadow">
+            <h4>Easy Jumble</h4>
             <div>
-              <label for="name">Create Jumble</label>
-              <input type="text" name="name" id="name">
+              <text name="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, corporis dolorem
+                totam a omnis maiores.</text>
+              </div>
+            </div> -->
+
+      <!-- <div class="col-5 bg-light shadow p-2">
+          <form onsubmit="app.JumblesController.createJumble()">
+            <div class="">
+              <label class="mb-3" for="name">Create Jumble</label>
+              <input class="mb-3" type="text" name="name" id="name">
               <textarea name="body" id="body"></textarea>
-              <button>Submit</button>
+              <button class="mb-3">Submit</button>
             </div>
           </form>
         </div>
-      </section>
-    </div>
-
-    <section id="Active-jumble" class="row">
-      <!-- <div class="col-8 bg-light shadow">
-          <h4>Easy Jumble</h4>
-          <div>
-            <text name="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, corporis dolorem
-              totam a omnis maiores.</text>
-            </div>
-          </div> -->
-    </section>
-
-
-    </div>
+      </div> -->
   </main>
 
   <!-- SECTION -->

@@ -8,7 +8,6 @@ export class JumblesController {
         console.log('load the jungle jumble to the console');
         AppState.on('activeJumble', this.drawActiveJumble)
         this.drawList()
-
     }
 
     drawList() {
@@ -37,7 +36,14 @@ export class JumblesController {
         const jumbleDataFromForm = getFormData(form)
         console.log(jumbleDataFromForm);
         jumblesService.createJumble(jumbleDataFromForm)
+    }
+
+    updateJumbleFile() {
+        console.log('win');
 
     }
+
+
+
 
 }
